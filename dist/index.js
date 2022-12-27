@@ -1,8 +1,13 @@
 "use strict";
 var _a;
-console.log('Mike Hunter using typescript nice😏');
+const title = "Mike D Javascript God";
+console.log(`Another shot at being world class ${title}🚀`);
 let sales = 123456789;
 console.log(sales);
+let id = 5;
+let company = 'Tech Hunter';
+let is_cool = true;
+let x = 'Mike';
 let user = [1, "Hunter", 4, true];
 console.log(user[1].length);
 user.push('Josh');

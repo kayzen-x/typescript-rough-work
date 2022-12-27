@@ -1,7 +1,14 @@
-console.log('Mike Hunter using typescript nice😏')
+const title: string = "Mike D Javascript God"
+console.log(`Another shot at being world class ${title}🚀`)
 
 let sales: number = 123_456_789;
 console.log(sales);
+
+// basic types
+let id: number = 5;
+let company: string = 'Tech Hunter';
+let is_cool: boolean = true;
+let x: any = 'Mike'
 
 let user: [number, string, number, boolean] = [1, "Hunter", 4, true];
 console.log(user[1].length)
@@ -130,6 +137,8 @@ if (customer !== null && customer !== undefined)
 let log: any = null
 log('a')
 
+
+
 interface Person {
     id: number,
     first_name: string,
@@ -137,6 +146,8 @@ interface Person {
     age: number,
     is_cool?: boolean
 }
+
+// Classes
 
 class Person {
     id: number
@@ -198,3 +209,4 @@ enum DirectionalNum {
 
 console.log(DirectionalStr.Up);
 console.log(DirectionalNum.Left);
+
